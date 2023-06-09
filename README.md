@@ -1,3 +1,14 @@
+The implemented feature is a drag and drop functionality using React.js. It allows users to drag items from an "Available Items" container and drop them into a "Dropped Items" container. The containers are displayed side by side and centered on the page.
+
+The "Available Items" container initially contains a list of items that can be dragged. When an item is dragged, visual feedback is provided by changing the appearance of the dragged item.
+
+The "Dropped Items" container displays a list of items that have been dropped into it. It has a designated area with the text "Drop here" that indicates where the items can be dropped. When an item is dropped into the container, it is added to the list of dropped items, and the item is removed from the "Available Items" container.
+
+A reset button is provided to clear the "Dropped Items" container and reset the "Available Items" container to its original state.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
